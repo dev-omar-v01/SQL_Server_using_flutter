@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:sql/presentation/home_screen.dart';
+
+import 'package:sql/profile/presentation/home_screen.dart';
 
 void main() {
   runApp(const MyApp());
