@@ -45,13 +45,13 @@ class ApiService{
             // Extract the values and ensure they are strings
             final id = item['id'].toString();
             final name = item['name'].toString();
-            final mobile = item['moblile'].toString();
+            final mobile = item['mobile'].toString();
 
             // Create a map for each item and add it to the newsList
             newsList.add({
               'id': id,
               'name': name,
-              'moblile': mobile,
+              'mobile': mobile,
             });
           } else {
             // Handle the case when the item is not in the expected format
